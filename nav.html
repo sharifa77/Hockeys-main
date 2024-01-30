@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Bree+Serif&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope',
+                sans-serif;
+            font-weight: 700;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <span class="ml-3 text-4xl upercase font-manrope">Hockey<span class="text-red-500">'</span>s</span>
+            </a>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base gap-5 justify-center">
+                <a class="mr-5 hover:text-gray-900">Home</a>
+                <a class="mr-5 hover:text-gray-900">About</a>
+                <a class="mr-5 hover:text-gray-900">Pages</a>
+                <a class="mr-5 hover:text-gray-900">Blog</a>
+                <a class="mr-5 hover:text-gray-900">Contact</a>
+
+
+            </nav>
+            <i class=" inline-flex mb-4 md:mb-0 gap-5">
+                <svg class="svg-icon search-icon" aria-labelledby="title desc" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
+                    <title id="title">Search Icon</title>
+                    <desc id="desc">A magnifying glass icon.</desc>
+                    <g class="search-path" fill="none" stroke="#848F91">
+                        <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
+                        <circle cx="8" cy="8" r="7" />
+                    </g>
+                </svg>
+
+                <button class="  items-center bg-[#FF4240] border-0 py-1 px-3  focus:outline-none hover:bg-[#FF4240] w-50%
+                rounded text-white text-base  md:mt-0">Get Ticket
+                </button>
+            </i>
+        </div>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap  w-full  text-right  ">
+                <div class="lg:w-2/3 mx-auto">
+                    <div class="flex flex-wrap text-white py-32 px-10 relative mb-4">
+                        <img alt="gallery"
+                            class="w-full object-cover h-full object-center block absolute  inset-0"
+                            src="Images/1.png">
+        
+                        <div class=" relative  bg-black   ">
+                            <h2 class="text-2xl text-white   mb-2     text-right">Meet all the heroes from the field</h2>
+                            <p class="leading">Hockey is a form of cardiovascular exercise <br> and whether you’re skating or running <br> your body benefits from the activity. </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+   
+</body>
+
+</html>
